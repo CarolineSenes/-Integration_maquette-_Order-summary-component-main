@@ -12,13 +12,14 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: var(--main-font);
+
 }
 body{
     background-color: var(--body-background-color);
     background-image: url(images/pattern-background-mobile.svg);
     background-repeat: no-repeat;
     font-size: 1rem;
-    font-family: var(--main-font);
     color: var(--main-font-color-light);
     height: 100vh;
     position: relative;
@@ -131,6 +132,52 @@ header img{
     body{
         background-image: url(images/pattern-background-desktop.svg);
     }
+}
+@media screen and (min-width: 768px){  
+    h1{
+        margin-top: 45px;
+        margin-bottom: 20px;
+        font-size: 1.9rem;
+    }
+    h2{
+        font-size: 1.1rem;
+        font-weight: 900;
+    }
+    #order_payment, #order_cancel, p{
+        font-size: 1.1rem;
+    }
+    main{
+        width: 450px;
+        height: 697px;
+    }
+    header img{
+        width: 450px;
+    }
+    #order, #header_txt{
+        width: 354px;
+    }
+    #order_price{
+        margin-right: 0;
+    }
+    #order_price p{
+        font-size: 1.1rem;
+    }
+    #order_plan a{
+        font-size: 0.9rem;
+        margin-left: 93px;
+    }
+    #order_plan{
+        margin-bottom: 31px;
+        height: 99px;
+    }
+    #order_cancel{
+        margin-top: 15px;
+    }
+}
+@media screen and (min-width: 1441px){
+    body{
+        background-image: none;
+    };
 }
 
 
