@@ -1,0 +1,156 @@
+/* variables css */
+:root{
+    --main-font: 'Red Hat Display', Helvetica, Arial, sans-serif;
+    --main-font-color-light: hsl(224, 23%, 55%);
+    --main-font-color-dark: hsl(223, 47%, 23%);
+    --body-background-color: hsl(225, 100%, 94%);
+    --blue-color: hsl(245, 75%, 52%);
+    --blue-color-active: hsl(223, 93%, 63%);
+    --annual-plan-background-color: hsl(225, 100%, 98%);
+    --white: hsl(0, 0%, 100%);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--body-background-color);
+    background-image: url(images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    font-size: 1rem;
+    font-family: var(--main-font);
+    color: var(--main-font-color-light);
+    height: 100vh;
+    position: relative;
+}
+main{
+    margin: auto;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 327px;
+    height: 568px;
+    background-color: var(--white);
+    border-radius: 20px;
+}
+.heading{
+    color: var(--main-font-color-dark);
+}
+h1{
+    margin-top: 27px;
+    margin-bottom: 17px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+h2{
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+p{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+a:hover{
+    text-decoration: none;
+}
+
+/* HEADER */
+header img{
+    border-radius: 20px 20px 0 0;
+    width: 327px;
+}
+#header_txt{
+    width: 242px;
+    margin: auto;
+    text-align: center;
+}
+
+/* SECTION */
+#order{
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 278px;
+}
+#order_plan{
+    display: flex;
+    align-items: center;
+    background-color: var(--annual-plan-background-color);
+    height: 80px;    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+#order img{
+    width: 47px;
+    height: 47px;
+    margin-right: 20px;
+    margin-left: 16px;
+}
+#order_price{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+#order_plan a{
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: var(--blue-color);
+}
+#order_plan a:hover{
+    color: var(--main-font-color-light);
+}
+#order_payment{
+    background-color: var(--blue-color);
+    color: var(--white);
+    border: none;
+    height: 49px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+#order_payment:hover{
+    background-color: var(--blue-color-active);
+}
+#order_cancel{
+    margin-top: 5px;
+    color: var(--main-font-color-light);
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+#order_cancel:hover{
+    color: var(--main-font-color-dark);
+}
+
+@media screen and (min-width: 376px){
+    body{
+        background-image: url(images/pattern-background-desktop.svg);
+    }
+}
+
+
+
+
+
+
+
+/* FOOTER */
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
