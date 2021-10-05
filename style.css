@@ -61,21 +61,21 @@ header img{
     border-radius: 20px 20px 0 0;
     width: 327px;
 }
-#header_txt{
+.header_txt{
     width: 242px;
     margin: auto;
     text-align: center;
 }
 
 /* SECTION */
-#order{
+.order{
     margin: auto;
     margin-top: 25px;
     display: flex;
     flex-direction: column;
     width: 278px;
 }
-#order_plan{
+.order_plan{
     display: flex;
     align-items: center;
     background-color: var(--annual-plan-background-color);
@@ -83,26 +83,26 @@ header img{
     width: 100%;
     margin-bottom: 24px;
 }
-#order img{
+.order img{
     width: 47px;
     height: 47px;
     margin-right: 20px;
     margin-left: 16px;
 }
-#order_price{
+.order_price{
     display: flex;
     flex-direction: column;
     margin-right: 50px;
 }
-#order_plan a{
+.order_plan a{
     font-weight: 700;
     font-size: 0.8rem;
     color: var(--blue-color);
 }
-#order_plan a:hover{
+.order_plan a:hover{
     color: var(--main-font-color-light);
 }
-#order_payment{
+.order_payment{
     background-color: var(--blue-color);
     color: var(--white);
     border: none;
@@ -113,8 +113,9 @@ header img{
     font-weight: 700;
     font-size: 0.9rem;
 }
-#order_payment:hover{
+.order_payment:hover{
     background-color: var(--blue-color-active);
+    cursor: pointer;
 }
 #order_cancel{
     margin-top: 5px;
@@ -137,14 +138,14 @@ header img{
     h1{
         margin-top: 45px;
         margin-bottom: 20px;
-        font-size: 1.9rem;
+        font-size: 1.7rem;
     }
     h2{
         font-size: 1.1rem;
         font-weight: 900;
     }
-    #order_payment, #order_cancel, p{
-        font-size: 1.1rem;
+    .order_payment, #order_cancel, p{
+        font-size: 1rem;
     }
     main{
         width: 450px;
@@ -153,20 +154,20 @@ header img{
     header img{
         width: 450px;
     }
-    #order, #header_txt{
+    .order, .header_txt{
         width: 354px;
     }
-    #order_price{
+    .order_price{
         margin-right: 0;
     }
-    #order_price p{
+    .order_price p{
         font-size: 1.1rem;
     }
-    #order_plan a{
+    .order_plan a{
         font-size: 0.9rem;
         margin-left: 93px;
     }
-    #order_plan{
+    .order_plan{
         margin-bottom: 31px;
         height: 99px;
     }

@@ -53,6 +53,6 @@ For small projects that don't require SASS, I will continue using CSS custom var
 
 ## Author
 
-- Website - [Caroline ALEXANDRE](https://www.carolinealexandre.fr) ... in construction ...
+- Website - [Caroline ALEXANDRE](https://github.com/CarolineSenes?tab=repositories)
 - Frontend Mentor - [@CarolineSenes](https://www.frontendmentor.io/profile/CarolineSenes)
 - Twitter - [@senes_caroline](https://twitter.com/senes_caroline)
